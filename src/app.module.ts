@@ -8,8 +8,8 @@ import { Doctor } from './doctors/entities/doctor.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      //host: 'host.docker.internal',
-      host:'localhost',
+      host: 'host.docker.internal',
+      //host:'localhost',
       port: 3306,
       username: 'root',
       password: null,

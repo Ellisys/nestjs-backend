@@ -1,0 +1,15 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": null,
+    "database": "teste",
+    "synchronize": true,
+    "entities": [
+        "./dist/**/entities/*.entity.ts"
+    ],
+    "migrations": [
+        "./dist/migration/*.ts"
+    ]
+}

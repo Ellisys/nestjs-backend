@@ -7,7 +7,7 @@ $ npm install
 ```bash
 $ docker-compose up
 
-Em src/app.module.ts troque o host do TypeOrmModulo de localhost para host.docker.internal antes de iniciar o container.
+#Em src/app.module.ts troque o host do TypeOrmModule de localhost para host.docker.internal antes de iniciar o container.
 ```
 
 ## Rodando o sistema
